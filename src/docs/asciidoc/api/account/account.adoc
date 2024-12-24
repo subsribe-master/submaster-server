@@ -1,0 +1,25 @@
+[[account-save]]
+=== 계좌 정보 저장
+
+==== HTTP Request
+
+include::{snippets}/account-save/http-request.adoc[]
+include::{snippets}/account-save/request-fields.adoc[]
+
+==== HTTP Response
+
+include::{snippets}/account-save/http-response.adoc[]
+include::{snippets}/account-save/response-fields.adoc[]
+
+[[account-findUser]]
+=== 계좌정보 조회
+
+==== HTTP Request
+
+include::{snippets}/account-findUser/http-request.adoc[]
+include::{snippets}/account-findUser/path-parameters.adoc[]
+
+==== HTTP Response
+
+include::{snippets}/account-findUser/http-response.adoc[]
+include::{snippets}/account-findUser/response-fields.adoc[]

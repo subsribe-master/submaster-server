@@ -1,0 +1,33 @@
+[[bank-save]]
+=== 은행저장
+
+==== HTTP Request
+
+include::{snippets}/bank-save/http-request.adoc[]
+include::{snippets}/bank-save/request-fields.adoc[]
+
+==== HTTP Response
+
+include::{snippets}/bank-save/http-response.adoc[]
+include::{snippets}/bank-save/response-fields.adoc[]
+
+[[bank-find]]
+=== 은행전체조회
+
+==== HTTP Response
+
+include::{snippets}/bank-find/http-response.adoc[]
+include::{snippets}/bank-find/response-fields.adoc[]
+
+[[bank-findName]]
+=== 은행 이름 조회
+
+==== HTTP Request
+
+include::{snippets}/bank-findName/http-request.adoc[]
+include::{snippets}/bank-findName/path-parameters.adoc[]
+
+==== HTTP Response
+
+include::{snippets}/bank-findName/http-response.adoc[]
+include::{snippets}/bank-findName/response-fields.adoc[]

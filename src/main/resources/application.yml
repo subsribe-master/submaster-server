@@ -1,0 +1,28 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://218.155.95.66:3306/submaster?allowPublicKeyRetrieval=true&useSSL=false&useUnicode=true&serverTimezone=Asia/Seoul
+    username: root
+    password: Navskd1048!
+  jpa:
+    open-in-view: false
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        default_batch_fetch_size: 100
+        jdbc:
+          exception-handling: ignore
+  mvc:
+    pathmatch:
+      matching-strategy: ANT_PATH_MATCHER
+
+token:
+  expiration_time: 86400000
+  secret: a964233191a19f309ad49de2825616e6faa2b1e147d7e4246d289a49fe9c970fcd974b2d06dfbd657e3faa03f66986c41456f6986140be7d8a547ab8298211c7
+

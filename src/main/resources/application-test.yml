@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:~/submaster;MODE=MySQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    open-in-view: false
+    properties:
+      hibernate:
+        default_batch_fetch_size: 100
+        jdbc:
+          exception-handling: ignore
+
+token:
+  expiration_time: 86400000
+  secret: a964233191a19f309ad49de2825616e6faa2b1e147d7e4246d289a49fe9c970fcd974b2d06dfbd657e3faa03f66986c41456f6986140be7d8a547ab8298211c7

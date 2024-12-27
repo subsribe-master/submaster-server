@@ -1,6 +1,6 @@
 FROM openjdk:21-jdk-slim
 
-RUN mkdir -p /home/project
+RUN mkdir /home/project
 WORKDIR /home/project
 
 COPY . .

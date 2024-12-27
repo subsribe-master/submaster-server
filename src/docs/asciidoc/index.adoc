@@ -13,7 +13,7 @@ endif::[]
 == User API
 
 include::api/user/user.adoc[]
-include::api/user/login.adoc[]
+include::api/login/login.adoc[]
 
 [[Account-API]]
 == Account API

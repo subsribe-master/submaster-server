@@ -1,4 +1,4 @@
-FROM amazoncorretto:21
+FROM openjdk:21-jdk-slim
 
 RUN mkdir -p /home/project
 WORKDIR /home/project

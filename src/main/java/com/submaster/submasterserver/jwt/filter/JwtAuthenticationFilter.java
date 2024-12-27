@@ -26,7 +26,8 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
     private static final String[] excludePath = {
             "/welcome",
-            "/docs"
+            "/docs",
+            "/api/v1"
     };
 
     @Override

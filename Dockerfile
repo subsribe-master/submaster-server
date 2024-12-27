@@ -1,4 +1,4 @@
-FROM amazoncorretto:21
+FROM arm64v8/amazoncorretto:21
 
 RUN mkdir -p /home/project
 WORKDIR /home/project

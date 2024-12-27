@@ -54,6 +54,7 @@ public class SecurityConfig {
                 new AntPathRequestMatcher("/css/**"),
                 new AntPathRequestMatcher("/images/**"),
                 new AntPathRequestMatcher("/js/**"),
+                new AntPathRequestMatcher("/api/v1/**"),
         };
     }
 }

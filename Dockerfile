@@ -7,6 +7,6 @@ WORKDIR /home/project
 COPY ./build/libs/submaster-server-0.0.1-SNAPSHOT.jar /home/project
 COPY ./scouter /home/project
 
-ENTRYPOINT ["java", "-javaagent:scounter.agent.jar",\
+ENTRYPOINT ["java", "-javaagent:scouter.agent.jar",\
 "-Dscouter.config=scouter.conf",\
 "-Duser.timezone=GMT+09:00", "-jar", "/home/project/submaster-server-0.0.1-SNAPSHOT.jar"]

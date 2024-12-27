@@ -1,6 +1,6 @@
-FROM openjdk:21-jdk-slim
+FROM arm64v8/openjdk:21-ea-21-jdk-slim
 
-RUN mkdir /home/project
+RUN mkdir -p /home/project
 WORKDIR /home/project
 
 COPY . .
